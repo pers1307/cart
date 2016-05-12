@@ -1,15 +1,15 @@
 {
-    "name": "pers1307/helpers",
-    "description": "Helpers for Publisher 6.0",
+    "name": "pers1307/cart",
+    "description": "Base class cart for Publisher 6.0",
     "keywords": [
-        "helpers", "Publisher"
+        "cart", "Publisher"
     ],
-    "homepage": "https://github.com/pers1307/helpers",
+    "homepage": "https://github.com/pers1307/cart",
     "license": "MIT",
     "authors": [
         {
             "name": "Yirii Pereskokov",
-            "email": "pers1307@mail.ru",
+            "email": "pers1307@mediasite.ru",
             "homepage": "https://github.com/pers1307/",
             "role": "PHP developer"
         }
@@ -22,12 +22,12 @@
     },
     "autoload": {
         "psr-4": {
-            "pers1307\\helpers\\": "src"
+            "pers1307\\cart\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "pers1307\\helpers\\Test\\": "tests"
+            "pers1307\\cart\\Test\\": "tests"
         }
     },
     "extra": {
